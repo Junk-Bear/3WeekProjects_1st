@@ -56,7 +56,6 @@ inline void SimpleVector<T>::push_back(const T _inValue)
 	currentSize++;
 }
 
-//우려사항 1: 동적할당된 데이터를 넣었으면? 스마터 포인터로하면 나중에 값바꿀때 상관 없나?
 template<typename T>
 inline void SimpleVector<T>::pop_back()
 {
